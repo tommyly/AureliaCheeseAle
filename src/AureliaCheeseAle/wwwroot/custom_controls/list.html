@@ -1,0 +1,17 @@
+﻿<template bindable="surveys">
+    <h2 style="margin-bottom: 20px; margin-top:70px;">Survey List</h2>
+    <section>
+        <div margin 0 auto;">
+            <table class="table">
+                <tr>
+                    <th>Name</th>
+                    <th>Recipients</th>
+                </tr>
+                <tr repeat.for="survey of surveys">
+                    <td>${ survey.name }</td>
+                    <td>${ survey.recipients }</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+</template>

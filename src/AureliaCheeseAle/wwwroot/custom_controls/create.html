@@ -5,10 +5,10 @@
         <form class="form-inline">
             <div class="form-group">
                 <label>Name</label>
-                <input class="form-control" type="text" placeholder="Name">
+                <input class="form-control" type="text" placeholder="Name" value.bind="surveyName">
             </div>
-       
-            <button type="submit" class="btn btn-primary">Submit</button>
+
+            <button type="submit" class="btn btn-primary" click.trigger="addSurvey()">Submit</button>
         </form>
     </section>
 </template>
